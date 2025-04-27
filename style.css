@@ -1,0 +1,748 @@
+element-styles {
+   display: inline-block;
+   width: 1920px;
+}
+
+/* manrope-regular - latin */
+@font-face {
+   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/manrope-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+ }
+ /* manrope-500 - latin */
+ @font-face {
+   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 500;
+   src: url('../fonts/manrope-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+ }
+ /* manrope-600 - latin */
+ @font-face {
+   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 600;
+   src: url('../fonts/manrope-v15-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+ }
+
+.personal-info-card {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: flex-start;
+   padding-top: 24px;
+   background: white;
+}
+
+.flex-box-container {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding-right: 40px;
+   padding-left: 40px;
+   overflow: hidden;
+   background: white;
+}
+
+.vertical-button-container {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   width: 891px;
+   height: 79px;
+   overflow: hidden;
+   background: #58f3a8;
+}
+
+.center-aligned-column-container {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: center;
+   width: 238px;
+}
+
+.purple-box {
+   box-sizing: border-box;
+   flex: 0 0 auto;
+   width: 929px;
+   height: 79px;
+   overflow: hidden;
+   background: #321d6f;
+}
+
+.card-layout {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: flex-start;
+   padding: 24px 40px;
+}
+
+.profile-card1 {
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.intro-text-container {
+   flex: 1 0 auto;
+}
+
+.royal-purple-box {
+   box-sizing: border-box;
+   width: 100%;
+   max-width: 891px;
+   padding: 52px 30px 223px;
+   background: #321d6f;
+}
+
+.majestic-heading {
+   box-sizing: border-box;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   font: 600 40px/47px Manrope, sans-serif;
+   color: white;
+   text-align: left;
+   letter-spacing: -1.6px;
+   white-space: pre-wrap;
+}
+
+.profile {
+   box-sizing: border-box;
+   display: block;
+   width: 929px;
+   max-width: initial;
+   height: 630px;
+   margin-left: 20px;
+   border: none;
+   object-fit: cover;
+}
+
+.personal-card {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   gap: 18.5px;
+   align-items: stretch;
+   justify-content: flex-start;
+   padding: 16px 34px 32px 27px;
+   background: #321d6f;
+}
+
+.standout-heading2 {
+   flex: 0 0 auto;
+   padding: 0;
+   margin: 0;
+   font: 600 64px/47px Manrope, sans-serif;
+   color: white;
+   letter-spacing: -2.56px;
+   white-space: pre-wrap;
+}
+
+.profile-image-container {
+   display: block;
+   flex: 0 0 auto;
+   max-width: initial;
+   height: 282px;
+}
+
+.hero-text {
+   flex: 0 0 auto;
+   align-self: flex-end;
+   padding: 0;
+   padding-right: 14px;
+   padding-left: 14px;
+   margin: 0;
+   margin-top: 1.25px;
+   font: 600 64px/47px Manrope, sans-serif;
+   color: white;
+   letter-spacing: -2.56px;
+   white-space: pre-wrap;
+}
+
+.profile-card {
+   box-sizing: border-box;
+   flex: 0 0 auto;
+   width: 1220px;
+   height: 79px;
+   overflow: hidden;
+   background: #321d6f;
+}
+
+.profile-section {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   width: 600px;
+   height: 79px;
+   overflow: hidden;
+   background: #58f3a8;
+}
+
+.self-intro-button-container {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: center;
+   width: 113px;
+}
+
+.engineering-journey-container {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   gap: 24px;
+   align-items: stretch;
+   justify-content: flex-start;
+   padding: 24px 34px 20px 40px;
+}
+
+.content-wrapper {
+   flex: 0 0 auto;
+   padding-right: 6px;
+}
+
+.central-content-container {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: center;
+   width: 100%;
+   padding: 241px 19px 193px;
+   background: #321d6f;
+}
+
+.content-wrapper1 {
+   flex: 0 0 auto;
+}
+
+.hero-text-block {
+   box-sizing: border-box;
+   max-width: 709px;
+   padding: 0;
+   margin: 0;
+   font: 600 24px/28px Raleway, sans-serif;
+   color: white;
+   text-align: left;
+   letter-spacing: -0.96px;
+   white-space: pre-wrap;
+}
+
+.enterprise-journey-section {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   align-items: center;
+   justify-content: flex-start;
+   margin-top: 19.5px;
+}
+
+.green-box-card-content {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: center;
+   width: 344px;
+   height: 120px;
+   padding-right: 15px;
+   padding-left: 15px;
+   overflow: hidden;
+   background: #58f3a8;
+}
+
+.majestic-text-block1 {
+   flex: 0 0 auto;
+   padding: 0;
+   margin: 0;
+   font: 600 22px/28px Raleway, sans-serif;
+   color: #321d6f;
+   text-align: left;
+   letter-spacing: -0.96px;
+   white-space: pre-wrap;
+}
+
+.project-summary-card {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: center;
+   width: 344px;
+   height: 120px;
+   padding-right: 11px;
+   padding-left: 11px;
+   overflow: hidden;
+   background: #58f3a8;
+}
+
+.project-card {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: center;
+   width: 344px;
+   height: 120px;
+   padding-right: 18px;
+   padding-left: 18px;
+   overflow: hidden;
+   background: #58f3a8;
+}
+
+.content-section {
+   flex: 0 0 auto;
+   padding-left: 728px;
+   margin-top: 138px;
+}
+
+.standout-heading {
+   padding: 0;
+   margin: 0;
+   font: 600 24px/28px Raleway, sans-serif;
+   color: white;
+   text-align: left;
+   letter-spacing: -0.96px;
+   white-space: pre-wrap;
+}
+
+.content-group {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   align-items: center;
+   justify-content: flex-start;
+   margin-top: 21.5px;
+}
+
+.predstavlenie {
+   display: flex;
+   justify-content: space-between;
+   font: 600 30px/0px Manrope, sans-serif;
+   color: #000000;
+   align-items: center;
+   padding: 10px;
+   z-index: 3;
+ 
+}
+
+
+
+.OSEBE {
+   display: flex;
+   justify-content: center; /* Центрировать по горизонтали */
+   font: 600 30px/0px Manrope, sans-serif;
+   color: #000000;
+   align-items: center; /* Центрировать по вертикали */
+   padding: 10px;
+   z-index: 3;
+ 
+}
+
+.PROJECTS {
+   display: flex;
+   justify-content: space-between;
+   font: 600 30px/0px Manrope, sans-serif;
+   color: #000000;
+   align-items: center;
+   padding: 10px;
+   z-index: 3;
+ 
+}
+
+.CONTACTS {
+   display: flex;
+   justify-content: center; /* Центрировать по горизонтали */
+   font: 600 30px/0px Manrope, sans-serif;
+   color: #000000;
+   align-items: center; /* Центрировать по вертикали */
+   padding: 10px;
+   z-index: 3;
+}
+
+
+.majestic-text-block {
+   flex: 0 0 auto;
+   padding: 0;
+   margin: 0;
+   font: 600 22px/30px Raleway, sans-serif;
+   color: #321d6f;
+   text-align: left;
+   letter-spacing: -0.96px;
+   white-space: pre-wrap;
+}
+
+.content-panel {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: center;
+   width: 344px;
+   height: 120px;
+   padding-right: 21px;
+   padding-left: 21px;
+   overflow: hidden;
+   background: #58f3a8;
+}
+
+.standout-heading1 {
+   padding: 0;
+   margin: 0;
+   margin-top: 20px;
+   font: 600 24px/28px Raleway, sans-serif;
+   color: white;
+   letter-spacing: -0.96px;
+   white-space: pre-wrap;
+}
+
+.project-button-container {
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.Fotos-realisovanyh-projectov { 
+   box-sizing: border-box; 
+   display: flex; 
+   flex: 0 0 auto; 
+   flex-direction: column; 
+   align-items: center; 
+   justify-content: flex-start; 
+   width: 891px; height: 79px; 
+   overflow: hidden; 
+   background: #58f3a8; }
+
+
+ 
+
+.project-gallery-button-container1 {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   width: 595px;
+   height: 79px;
+   overflow: hidden;
+   background: #58f3a8;
+}
+
+.project-gallery-button-container {
+   box-sizing: border-box;
+   flex: 0 0 auto;
+   width: 1226px;
+   height: 79px;
+   margin-left: 20px;
+   background: #321d6f;
+}
+
+.vertical-centered-column-container {
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: center;
+}
+
+.dashboard-layout-container {
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: row;
+   gap: 20px;
+   align-items: flex-start;
+   justify-content: space-between;
+   padding-right: 6px;
+}
+
+.hierarchical-text-container {
+   box-sizing: border-box;
+   display: flex;
+   flex: 1 1 0;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: flex-start;
+   background: #b0b0b0;
+}
+
+
+.dispatcher-shield-container {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: flex-end;
+   max-width: initial;
+   height: 557px;
+   padding-top: 502px;
+   background: url("https://s3-alpha-sig.figma.com/img/b080/b9de/ff8e5af9e7e74290bcf22019b764ad98?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=FLZVw0dJzpNkM46pVD~NPFGFglyIfAGPJlo5gOukZFWzwGizumfiXci~Ob4Z3NgsliWeEnzUS8p6532RpM324i7Iib-HWK7VWTLGckS2qX4VsVTL0zjbSro-bDAE7ljfyKF2x9MmTapbUN8orxuTmtULTocP7lf50GFNokK8ANHiJYs9XBEGr0hA6bGR1SSziNnxDkJXjbe019L2JrRDyzAtX8VOzP~ploBjbAzfvzTfmq8VqkNK~XT6gCLqu0lf7mgSLtyviTExh4mOs~~Fe66k0I6KX5KS~1B1QRU0RFakvrT8Y6QMrNQ0KTSFUiQx9513L3of5zHPxouhIMgIxA__")
+   50% / cover no-repeat;
+   border: none;
+}
+
+.dispatcher-panel-style {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   padding-right: 2.5px;
+   background: #58f3a8;
+}
+
+.dispatcher-info-heading {
+   flex: 0 0 auto;
+   padding: 0;
+   margin: 0;
+   font: 600 24px/60px Manrope, sans-serif;
+   color: #321d6f;
+   text-align: left;
+   letter-spacing: -0.96px;
+   white-space: pre-wrap;
+}
+
+
+.dispatcher-shield-container1 {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: flex-end;
+   max-width: initial;
+   height: 557px;
+   padding-top: 502px;
+   background: url("https://s3-alpha-sig.figma.com/img/48b6/ed04/d4757b99a717908c18bda5c76c4c8ef6?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=KUXKY4g8xiNWbZiJNAX2G72xwou-XX-LevZgy6vG9zTnuZ~P1Uk~Vmd0NLPo0vhvk-3UdiVh-dEVh5mqAfXdxer37S~e5UBVYdpZ5hO32l~f4o7EQG93xZpcOKbezWb7h3D4cXdwb0TEKzHNsGt9xyGbM9kkONq3bmkrjgJ4v4s-pxB9R7CPbwLPS8vli06xPLpJ2L1VY8LAKZ-631IqwAQ~r9jrAqk2J3T~n6k1LNhdi~CoWOi0TR3Dr1viqc8dRfi2XPsaEKlG-QXVid8v4cb41SfYR~GULXgfK9~FwoJ-xwur1PZCSCXjUPMUWE3FM1ZT-Sll-~8MK4S1nNDI4g__")
+   50% / cover no-repeat;
+   border: none;
+}
+
+.telemechanics-stand {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: flex-end;
+   max-width: initial;
+   height: 557px;
+   padding-top: 502px;
+   background: url("https://s3-alpha-sig.figma.com/img/f121/a5bc/3e251d953af24cf39a82efb455580a23?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iIYvqNJ8Id9PS-9YiN~3UUmkVRE2lfhGCz3UNbQgIteFe89ESA3IURLfYjpa-5XMVd7N6Cax39VOTMIo1hWg4I7cVEY-QkwyM42yMoAEXwkYykQqrROPh7YNJyZUrbUrCovU3l9ZT6JMYRWMiSK1133RENCbS4OEFo4Ipjoy4bJMnahb8NjqQ6jGOG4MUbzEdpnZpl6ytiL86FIPiCV0APj4ASWsiX~-m9QSZ7rhdpZYXODMfN0mL-Hutg7d0Kzb1iYz4QhSu2Ic36sD4oTaxGRQ5EQIt8CKCrTl88H4vvPQUIZgEubnOF4VtIwv3dfPJ5~m84w8aNSbyguK4L2s3Q__")
+   50% / cover no-repeat;
+   border: none;
+}
+
+.control-panel-section-styles {
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: row;
+   gap: 20px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   margin-top: 20px;
+}
+
+.control-panel-section {
+   box-sizing: border-box;
+   flex: 0 0 600px;
+   background: #b0b0b0;
+}
+
+.control-panel-container1 {
+   box-sizing: border-box;
+   width: 100%;
+   padding-top: 502px;
+   background: url("https://s3-alpha-sig.figma.com/img/eb98/ccd6/a9ceba18811fc5774fd161bda97b1300?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=FEVT7FD0Uck79CXJtCgz9W4-R815l4u6hRn2AIF9NbSRQ29-FNwOl8Eh1y5NSt1HvhEl1o4MSRc3K~lTPrzwr5cWojehIkLAoVfD6NGW-vUXAjDxyIv6iMCeTzOem1dZrZNlkjqkSlNR70kmOAr8RExG27dRISuJdceHzxiC-nYEJ5IXT43ADUXMr95xxhw~GIGhjB3VgCwZZ5e5P~f4G-WfPMnAWfL9hA-8Cf3jYR-WugAQD2AvXJrLWvRgAWhp~GYR5W4CaGP1M-bDnpWCp76dKXrqBBxww0BWzXisO4U9L4YPCGAAi6K~2Cg8Kmuk9Q5f5WR8Oyt2MQKlCBfS4w__")
+   50% / cover no-repeat;
+   border: none;
+}
+
+.control-panel-container {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   justify-content: flex-start;
+   width: 100%;
+   padding-right: 44px;
+   padding-left: 44px;
+   background: #58f3a8;
+}
+
+.purple-heading-text-style {
+   flex: 0 0 auto;
+   padding: 0;
+   margin: 0;
+   font: 600 24px/60px Manrope, sans-serif;
+   color: #321d6f;
+   text-align: left;
+   letter-spacing: -0.96px;
+   white-space: pre-wrap;
+}
+
+.control-cabin-styles {
+   box-sizing: border-box;
+   flex: 0 0 auto;
+   background: #b0b0b0;
+}
+
+.crane-control-cabin-st-petersburg {
+   box-sizing: border-box;
+   max-width: initial;
+   height: 557px;
+   padding-top: 502px;
+   background: url("https://s3-alpha-sig.figma.com/img/a607/d80a/45073634c9072a6f2f8674a0c36c6387?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=e8l--IfPfAPxCIlfRKgFffw4z9ZexyAA3re-~jH8wChl3tQql1osqRO9F6jFOHQttPOGetwV8FSz51Q0zMKs9Z5GV-SMtGURvP2tTA-0FNzxZjjj0ixdNH2ePYQ9s7e9CYVuQuHekoV2mw50nQPEQQtenU~USq~lxz8nHzINsgtc6IZctLU2mrfKFYtMp0sxewCDYaT5inzdBPFhGOWyTIYtiRp5H7uLrgSUQYB8EqY-N9q7ETB1OU-Dg72Arritu2XaeT83ViFQO8XcBtptWjOUl7yYvVg27Y8htFBeKQm30N3W6GIocA~bkF5-dunu9BA3~tH7vEmye~5SLBW1iw__")
+   50% / cover no-repeat;
+   border: none;
+}
+
+.crane-control-panel-text-style {
+   box-sizing: border-box;
+   padding: 0;
+   padding-right: 29px;
+   padding-left: 29px;
+   margin: 0;
+   font: 600 24px/60px Manrope, sans-serif;
+   color: #321d6f;
+   text-align: left;
+   letter-spacing: -0.96px;
+   white-space: pre-wrap;
+   background: #58f3a8;
+}
+
+.data-tracking-system-style {
+   box-sizing: border-box;
+   width: 100%;
+   padding-top: 502px;
+   background: url("https://s3-alpha-sig.figma.com/img/0a0f/5f82/c14b8a163de0a2009ba9dc8b6b43df77?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=F~AgfXi91pw9STXiLus3itxb6xcpJqJsTXs6gEH3mnih6~yPhhhwATxK9o2MNycAAUFHfl1p1Xm43XsMxwPSxRqRnpApy-3q9VIAIkixMoYbsLpTz-HE8PyI0A1IlBCm0cZzAATMwQDbxVpbmsjy9t8rTa3BkSvq9NZSO1enGw5LibiFHbowgPmn1Gaec8V3qPRXTqIuQd72o1TjRwhmxUyiQUw3Oe28tUNdN4zFpFpvIwbB8-PQV6vwKsTQq9vYByaICV5JsrmWzdzn7xJMSRfbWbeixao8WLw3wJ~TETQ3x~g14Ewdp367vsawHtCrT2RdaQc-mQufukBFza0stw__")
+   50% / cover no-repeat;
+   border: none;
+}
+
+.data-tracking-container {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   width: 100%;
+   padding-right: 10.5px;
+   background: #58f3a8;
+}
+
+.data-record-title {
+   padding: 0;
+   margin: 0;
+   font: 600 24px/60px Manrope, sans-serif;
+   color: #321d6f;
+   text-align: left;
+   letter-spacing: -0.96px;
+   white-space: pre-wrap;
+}
+
+.contact-info-button-container {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: center;
+   width: 295px;
+}
+
+.flex-column-container {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: flex-start;
+   padding: 20px 40px 47px;
+}
+
+.purple-box-container {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: flex-start;
+   padding-right: 16px;
+   padding-left: 16px;
+   background: #321d6f;
+}
+
+.flex-container-with-images {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-end;
+   max-width: initial;
+   height: 1095px;
+   padding: 44px 3px 719px;
+   background: url("https://s3-alpha-sig.figma.com/img/c322/a52b/40e5d7816041868448fff5d07634fb84?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DejqePZO6uRqezQ6VQjHFxjxkkRrTDK6P8yWiVmkmwu0f2xLI0jClR7giCCqWQIaKeViAGQob1xBotnAJeo9byuq7hQ3dm4iMH4OEhOUP~9oMLccy19~8tnIGNY4Hajp5KZ~tDQESfcvqSgkjrNXCCpBGys7lR9OAdudY94njfGmmUaDMD80rqPhqy961Vy7q6UnLj-X2ZyGHk2zL7KW7MkjlCKCdrOemY9bGmRel6dU6EHPdUKhfh8TjeIAynfv93VrcwcYeGsYAR0JCiqIfm3bgSK~os~Yaq6lCEs8OhrWSaGiEJnUmYXBwJJgUB-1gzbm9xd4ugw305SXfjMBEQ__")
+   50% / cover no-repeat;
+   border: none;
+}
+
+.image-container-with-border-radius1 {
+   box-sizing: border-box;
+   display: block;
+   width: 262px;
+   max-width: initial;
+   height: 332px;
+   margin-right: 34px;
+   border: none;
+   border-radius: 20px;
+   mix-blend-mode: color-dodge;
+   object-fit: cover;
+}
+
+.image-container-with-border-radius {
+   box-sizing: border-box;
+   display: block;
+   width: 262px;
+   max-width: initial;
+   height: 332px;
+   border: none;
+   border-radius: 20px;
+   mix-blend-mode: color-dodge;
+   object-fit: cover;
+}
+
